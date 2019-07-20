@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.full-span {
+    flex-basis: 100%;
+    text-align: center;
+    background-color: grey;
+    line-height: 50px;
+    max-height: 50px;
+    color: white;
+}
+
+.button, .current {
+    width: calc(100% / 3);
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+.button {
+    background-color: gray;
+}
+.current {
+    background-color: white;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+}
+.current:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.index-left{
+    flex: 1 1 calc(100% / 3 * 2);
+}
+
+.index-right{
+    flex: 1 0 calc(100% / 3);
+}
+
+.merch-left{
+    flex: 0 0 150px;
+}
+
+.merch-right{
+    flex: 1 1 calc(100% - 150px);
+}
+
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside{  
+    flex-flow: column wrap;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.merch-aside {
+    flex-basis: 20%;
+}
+
+.merch-left a {
+    line-height: 30px;
+    color: black;
+}
+
+.h2-title {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-div {
+    margin: 3px;
+    flex: 1 0 calc(50% - 10px);
+    min-width: 250px;
+}
+
+.music-embed {
+    margin: 3px 3px 5px 5px;
+}
+
+.main-div img {
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+    padding: 5px;
+    float: left;
+}
+
+.go-to-menu {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+
+.merch-right img:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.textbox {
+    width: 400px;
+    height: 200px;
+}
+
+.contact-form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    margin-left: 25%
+}
