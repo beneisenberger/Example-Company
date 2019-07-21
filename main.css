@@ -5,7 +5,7 @@ body {
     font-family: 'Josefin Slab', serif;
 }
 
-.container {
+.container, .main {
     display: flex;
     flex-flow: row wrap;
 }
@@ -18,11 +18,6 @@ body {
     max-height: 50px;
     color: white;
     font-family: 'Playfair Display SC', serif;
-}
-
-.main{
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .aside{  
